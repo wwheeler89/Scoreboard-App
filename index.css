@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "CursedTimer";
+    src: url(Fonts/CursedTimerUlil-Aznm.ttf) format('truetype');
+}
+
+body {
+    margin: 0;
+
+}
+
+.score {
+    color: #F94F6D;
+    text-align: center;
+    font-family: CursedTimer;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.666px;
+    background: #0a0001;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    margin: 21px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background-color: #1B244A;
+    margin: 10% auto;
+    padding-bottom: 68px;
+}
+
+.column {
+    text-align: center;
+}
+
+h3 {
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.893px; /* 89.732% */
+    margin-top: 68px;
+    margin-bottom: 21px;
+}
+
+.score-btn {
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    background-color: #1B244A;
+    color: #EEE;
+    font-family: "CursedTimer";
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    margin: 0 3px 21px;
+}
+
+.reset-btn {
+    background-color: #F94F6D;
+    color: #1B244A;
+    font-family: "CursedTimer";
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 2px solid #1B244A;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+}
